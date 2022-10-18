@@ -1,0 +1,94 @@
+/* Section new-collection start*/
+.new-coll {    
+    padding: 80px 0;    
+}
+.new-coll-offer {
+    display: flex;
+    flex-direction: column;
+}
+.new-coll-offer__title {
+    margin-bottom: 50px;
+}
+.new-coll-offer__btn {
+    margin: 50px auto 0;   
+}
+/* Section new-collection end */
+
+/* Responsive home-new-coll start */
+
+
+/* 1251px - 1400px  normal desctops start */
+@media screen and (max-width: 1400px) {	          
+}
+/* 1251px - 1400px  normal desctops end */
+
+/* 993px - 1250px small desctops start */
+@media screen and (max-width: 1250px) { 
+    .new-coll {
+        padding: 75px 0;
+    }  
+   
+}
+/* 993px - 1250px small desctops end */
+
+/* 769px - 992px  tablets start */
+@media screen and (max-width: 992px) {  
+    .new-coll {
+        padding: 70px 0;
+    }     
+    .new-coll-offer__title {
+        margin-bottom: 40px;
+    }
+    .new-coll-offer__btn {
+        margin: 40px auto 0;   
+    }    
+}
+/* 769px - 992px  tablets end */
+
+/* 577px - 768px big phones start */
+@media screen and (max-width: 768px) { 
+    .new-coll {
+        padding: 65px 0;
+    }               
+    .new-coll-offer__title {
+        margin-bottom: 30px;
+    } 
+    .new-coll-offer__btn {
+        margin: 30px auto 0;   
+    }   
+ }    
+    
+/* 577px - 768px big phones end */
+
+/*   421px - 576px normal phones start*/
+@media screen and (max-width: 576px) {
+    .new-coll {
+        padding: 60px 0;
+    }
+}      
+
+/*   421px - 576px normal phones end*/
+
+/*  371px - 420px  small phones start */
+@media screen and (max-width: 420px) {
+    .new-coll {
+        padding: 55px 0;
+    }      
+} 
+
+/*  371px - 420px  small phones end */
+
+/* 320px - 370px extra-small phones start*/
+@media screen and (max-width: 370px) { 
+    .new-coll {
+        padding: 50px 0;
+    }     
+    .new-coll-offer__title {
+        margin-bottom: 20px;
+    } 
+    .new-coll-offer__btn {
+        margin: 20px auto 0;   
+    }   
+}
+/* 320px - 370px extra-small phones end*/
+/* Responsive end */

@@ -1,0 +1,172 @@
+/* output products start*/
+ul.products {               
+    display: flex;
+    flex-direction: row;
+    row-gap: 60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;   
+}
+.woocommerce-result-count {    
+    display: block;
+    color: #808080;   
+}
+ul.products>li.product {     
+    position: relative;      
+    width: 32%;    
+}
+ul.products>li.type-product>a.woocommerce-LoopProduct-link {
+    position: relative; 
+    z-index: 1;      
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    overflow: hidden;
+}
+.products-item-overlay {
+    width: 100%;
+    height: 470px;    
+    opacity: 0;    
+    position: absolute;    
+    top: 0;
+    left: 0; 
+    z-index: 1;  
+    background: rgba(110, 156, 159, 0.77);    
+}
+ul.products>li:hover .products-item-overlay {
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+ul.products>li>a.woocommerce-LoopProduct-link>img {
+    width: 100%;
+    height: 470px;    
+}
+.span.products-item-arrow {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+span.products-item-arrow::before {
+    display: block;
+    position: absolute;     
+    content: '';
+    width: 31px;
+    height: 22px;
+    opacity: 1;    
+    background: url(..//img/arrow-right-new-coll.svg) no-repeat center center / cover;
+    transition: all 0.5s ease;
+}
+span.products-item-arrow::after {   
+    position: absolute;     
+    content: '';
+    width: 31px;
+    height: 22px;
+    opacity: 0;
+    background: url(..//img/arrow-right-new-coll-hover.svg) no-repeat center center / cover;
+    transition: all 0.5s ease;
+}
+span.products-item-arrow:hover::before {
+    opacity: 0;
+}
+span.products-item-arrow:hover::after {
+    opacity: 1;
+}
+
+ul.products>li>a.woocommerce-LoopProduct-link>h2.woocommerce-loop-product__title {
+    margin-top: 24px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+ul.products>li>a.woocommerce-LoopProduct-link>span.price {
+    display: flex;
+    gap: 10px;
+    color: #998E78;
+}
+ul.products>li>a.woocommerce-LoopProduct-link>span.price>del>span.amount>bdi {
+    display: flex;
+    flex-direction: row-reverse; 
+    font-size: 15px;
+    line-height: 1.4em;
+    font-weight: 500;
+    color: #9c9c9c !important;   
+} 
+ul.products>li>a.woocommerce-LoopProduct-link>span.price>ins>span.amount>bdi {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 15px;
+    line-height: 1.4em;
+    font-weight: 500;
+    color: #998E78;    
+}
+ul.products>li>a.woocommerce-LoopProduct-link>span.price>span.amount>bdi {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 15px;
+    line-height: 1.4em;
+    font-weight: 500;
+    color: #998E78;
+}
+.products-count-bottom {
+    margin-top:30px;
+}
+/* output products end*/
+
+/* Responsive for output products start */
+
+/* 1251px - 1400px  normal desctops start */
+@media screen and (max-width: 1400px) { 
+           
+}
+/* 1251px - 1400px  normal desctops end */
+
+/* 993px - 1250px small desctops start */
+@media screen and (max-width: 1250px) {	     
+}
+/* 993px - 1250px small desctops end */
+
+/* 769px - 992px  tablets start */
+@media screen and (max-width: 992px) {    
+    ul.products>li.product {    
+        width: 40%;    
+    }    
+}
+/* 769px - 992px  tablets end */
+
+/* 577px - 768px big phones start */
+@media screen and (max-width: 768px) {    
+    ul.products>li.product {    
+        width: 60%;    
+    }    
+ }    
+    
+/* 577px - 768px big phones end */
+
+/*   421px - 576px normal phones start*/
+@media screen and (max-width: 576px) {   
+    ul.products>li.product {    
+        width: 80%;    
+    }       
+}        
+
+/*   421px - 576px normal phones end*/
+
+/*  371px - 420px  small phones start */
+@media screen and (max-width: 420px) {   
+    ul.products>li.product {    
+        width: 95%;    
+    }     
+} 
+
+/*  371px - 420px  small phones end */
+
+/* 320px - 370px extra-small phones start*/
+@media screen and (max-width: 370px) {  
+    
+}
+/* 320px - 370px extra-small phones end*/
+/* Responsive for output products end end */

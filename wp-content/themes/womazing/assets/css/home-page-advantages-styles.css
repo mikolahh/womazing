@@ -1,0 +1,123 @@
+/* Section advantages start */
+.advantages {   
+    padding: 80px 0;
+}
+.advantages-title {
+    margin-bottom: 40px;
+}
+.advantages-wrap {    
+    display: flex;    
+    justify-content: space-between;
+}
+.advantage {    
+    width: 33%;        
+}
+.advantage__title {
+    margin: 37px 0 24px;
+    font-size: 25px;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.advantage__text {    
+    padding-right: 45px;
+}
+/* Section advantages end */
+
+
+/* Responsive home-advantages start */
+
+/* 1251px - 1400px  normal desctops start */
+@media screen and (max-width: 1400px) {	
+    .advantages {
+        padding: 75px 0;
+    }          
+}
+/* 1251px - 1400px  normal desctops end */
+
+/* 993px - 1250px small desctops start */
+@media screen and (max-width: 1250px) {
+    .advantages {
+        padding: 70px 0;
+    }   
+   
+}
+/* 993px - 1250px small desctops end */
+
+/* 769px - 992px  tablets start */
+
+@media screen and (max-width: 992px) { 
+    .advantages {
+        padding: 65px 0;
+    }              
+    .advantages-title {
+        margin-bottom: 30px;
+    }
+    .advantage__text {
+        padding-right: 25px;
+    }   
+}
+/* 769px - 992px  tablets end */
+
+/* 577px - 768px big phones start */
+@media screen and (max-width: 768px) {
+    .advantages {
+        padding: 60px 0;
+    }                 
+    .advantages-wrap {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 10px;
+        justify-content: center;
+    }
+    .advantage {
+        width: 49%;
+    }
+    .advantages-title {
+        margin-bottom: 50px;
+    }
+    .advantage__text {
+        margin: 33px 0 22px;
+    }     
+ }    
+    
+/* 577px - 768px big phones end */
+
+/*   421px - 576px normal phones start*/
+@media screen and (max-width: 576px) { 
+    .advantages {
+        padding: 55px 0;
+    }
+    .advantages-wrap {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+    .advantage {
+        width: 98%;
+    }              
+    .advantages-title {
+        margin-bottom: 25px;
+    }    
+    .advantage__title {
+        margin: 20px 0 15px;
+    }            
+}        
+
+/*   421px - 576px normal phones end*/
+
+/*  371px - 420px  small phones start */
+@media screen and (max-width: 420px) { 
+    .advantages {
+        padding: 50px 0;
+    }        
+} 
+
+/*  371px - 420px  small phones end */
+
+/* 320px - 370px extra-small phones start*/
+@media screen and (max-width: 370px) {         
+       
+}
+/* 320px - 370px extra-small phones end*/
+/* Responsive home-advantages end */

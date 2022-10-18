@@ -1,0 +1,222 @@
+/* Styles for contact.html start*/
+/* section contact-header */
+.contact-header {
+    padding: 60px 0;   
+}
+.contact-breadcrumb {
+    margin-top: 26px;    
+}
+/* section contact-map */
+.contact-map {
+    padding: 30px 0;   
+}
+.contact-map-wrap {
+    height: 476px;
+    background: #ddd;
+}
+/* section contact-main */
+.contact-main {
+    padding: 60px 0;
+}
+.contact-main-wrap {      
+    display: flex;
+    gap: 98px;
+}
+.contact-main-wrap div {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.contact-main-wrap span {
+    display: block;    
+}
+.contact-main-wrap a, .contact-main-wrap h4 {    
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.contact-main-wrap  a:hover {
+    color: #6E9C9F;
+    border-bottom: 1px solid #6E9C9F;    
+    transition: all 0.5s ease;
+}
+/* section contact-write */
+.contact-write {
+    padding: 65px 0 130px;   
+} 
+
+.contact-write .wpcf7 {    
+    margin-top: 35px;    
+}
+.contact-write .wpcf7 input.wpcf7-text {        
+    width: 36%; 
+    color: #868686;     
+    padding-bottom: 16px;
+    border-bottom: 1px solid #000;   
+}
+.contact-write textarea.wpcf7-textarea {
+    max-width: 443px;
+    width: 100%;
+    color: #868686;        
+    border-bottom: 1px solid #000;    
+    height: 134px;
+    resize: none !important;
+}
+.contact-write .wpcf7-form p {
+    display: block;
+}
+.wpcf7-spinner {
+    display: block;
+    margin: 20px auto; 
+    width: 48px; 
+    height: 48px;  
+}
+.wpcf7-spinner::before {
+    width: 12px;
+    height: 12px;
+}
+.contact-write .wpcf7-form.invalid .wpcf7-response-output,
+.contact-write .wpcf7-form.sent .wpcf7-response-output  { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    font-weight: 500;    
+    padding: 30px 76px;    
+    margin-top: 62px;
+    margin-right: auto;
+    border: none;
+}
+.contact-write .wpcf7-form.invalid .wpcf7-response-output {
+    background: #dd5e8d;
+}
+.contact-write .wpcf7-form.sent .wpcf7-response-output {
+    background: #57e847;
+}
+
+/* Responsive for contact page start */
+
+/* 1251px - 1400px  normal desctops start */
+@media screen and (max-width: 1400px) {	 
+     
+            
+}
+/* 1251px - 1400px  normal desctops end */
+
+/* 993px - 1250px small desctops start */
+@media screen and (max-width: 1250px) {
+    .contact-header {
+        padding: 55px 0;
+    }    
+    .contact-main {
+        padding: 55px 0;
+    }
+	   
+}
+/* 993px - 1250px small desctops end */
+
+/* 769px - 992px  tablets start */
+@media screen and (max-width: 992px) {
+    .contact-header {
+        padding: 50px 0;
+    }    
+    .contact-main {
+        padding: 50px 0;
+    }    
+    .contact-main-wrap {
+        flex-direction: column;
+        gap: 20px;
+    } 
+    .contact-write .wpcf7 input.wpcf7-tex {
+       width: 50%; 
+    }     
+}
+/* 769px - 992px  tablets end */
+
+/* 577px - 768px big phones start */
+@media screen and (max-width: 768px) { 
+    .contact-header {
+        padding: 45px 0;
+    }    
+    .contact-main {
+        padding: 45px 0;
+    }   
+    .contact-write .wpcf7 input.wpcf7-tex {
+        width: 60%; 
+     } 
+    .contact-write .wpcf7-form.invalid .wpcf7-response-output,
+    .contact-write .wpcf7-form.sent .wpcf7-response-output  {
+         width: 70%;    
+    } 
+ }    
+    
+/* 577px - 768px big phones end */
+
+/*   421px - 576px normal phones start*/
+@media screen and (max-width: 576px) { 
+    .contact-header {
+        padding: 40px 0;
+    }    
+    .contact-main {
+        padding: 40px 0;
+    } 
+    .contact-write .wpcf7-form.invalid .wpcf7-response-output,
+    .contact-write .wpcf7-form.sent .wpcf7-response-output  {
+         width: 80%;    
+    } 
+}        
+
+/*   421px - 576px normal phones end*/
+
+/*  371px - 420px  small phones start */
+@media screen and (max-width: 420px) { 
+    .contact-header {
+        padding: 35px 0;
+    } 
+    .contact-map {
+        padding: 25px 0;
+    } 
+    .contact-main {
+        padding: 35px 0;
+    } 
+    .contact-main-wrap a, .contact-main-wrap h4 {    
+        font-size: 18px;
+        line-height: 1.4em;        
+    }   
+    .contact-write .wpcf7 input.wpcf7-tex {
+        width: 95%; 
+     }   
+    .contact-write .wpcf7-form.invalid .wpcf7-response-output,
+    .contact-write .wpcf7-form.sent .wpcf7-response-output  {
+         width: 90%;    
+    } 
+} 
+
+/*  371px - 420px  small phones end */
+
+/* 320px - 370px extra-small phones start*/
+@media screen and (max-width: 370px) { 
+    .contact-header {
+        padding: 30px 0;
+    } 
+    .contact-map {
+        padding: 20px 0;
+    } 
+    .contact-main {
+        padding: 30px 0;
+    } 
+    .contact-main-wrap a, .contact-main-wrap h4 {    
+        font-size: 18px;
+        line-height: 1.4em;        
+    }
+    .contact-write .wpcf7-form.invalid .wpcf7-response-output,
+    .contact-write .wpcf7-form.sent .wpcf7-response-output  {
+         width: 95%;    
+    }
+    
+}
+/* 320px - 370px extra-small phones end*/
+/* Responsive for contact page end */

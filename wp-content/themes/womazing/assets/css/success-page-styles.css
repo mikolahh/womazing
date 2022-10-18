@@ -1,0 +1,105 @@
+/* Styles for success.html start */
+/* section success-header */
+.success-header {
+    padding: 60px 0 40px;   
+}
+.success-title {
+    margin-bottom: 20px;
+}
+/* Section success-main */
+.success-main {
+    padding: 60px 0;   
+}
+.success-wrap {
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+}
+.success-wrap__info {
+    display: flex;       
+    gap: 44px;    
+}
+.success-wrap__icon {
+    width: 72px;
+    height: 84px;
+    background: url('../img/order-success.png')  no-repeat center  / cover;
+}
+.success-wrap__message {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+/* Styles for success.html end */
+
+/* Responsive for success page start */
+
+/* 1251px - 1400px  normal desctops start */
+@media screen and (max-width: 1400px) {	 
+     
+            
+}
+/* 1251px - 1400px  normal desctops end */
+
+/* 993px - 1250px small desctops start */
+@media screen and (max-width: 1250px) {
+    .success-main {
+        padding: 55px 0;
+    }	
+}
+/* 993px - 1250px small desctops end */
+
+/* 769px - 992px  tablets start */
+@media screen and (max-width: 992px) {
+    .success-main {
+        padding: 50px 0;
+    }
+    .success-wrap {
+        flex-direction: column;
+        gap: 40px;
+       }
+}
+/* 769px - 992px  tablets end */
+
+/* 577px - 768px big phones start */
+@media screen and (max-width: 768px) {
+    .success-main {
+        padding: 45px 0;
+    }
+    .success-wrap {
+        align-items: flex-start;
+    }
+    .success-wrap__info {
+        flex-direction: column;
+        gap: 30px;
+    }       
+ }    
+    
+/* 577px - 768px big phones end */
+
+/*   421px - 576px normal phones start*/
+@media screen and (max-width: 576px) {                         
+    .success-main {
+        padding: 40px 0;
+    }
+}        
+
+/*   421px - 576px normal phones end*/
+
+/*  371px - 420px  small phones start */
+@media screen and (max-width: 420px) { 
+    .success-main {
+        padding: 35px 0;
+    }   
+} 
+
+/*  371px - 420px  small phones end */
+
+/* 320px - 370px extra-small phones start*/
+@media screen and (max-width: 370px) { 
+    .success-main {
+        padding: 30px 0;
+    }  
+    
+}
+/* 320px - 370px extra-small phones end*/
+/* Responsive for success page end */

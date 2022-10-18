@@ -1,0 +1,146 @@
+/* Styles for page shop.html start*/
+/* Section Shop-header start */
+.shop-header {    
+    padding: 60px 0;    
+}
+.shop-header-breadcrumb {   
+    margin: 30px 0;
+}
+/* output category wp start */
+.wp-cat-wrap {    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.wp-cat-wrap>li.product-category {    
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.wp-cat-wrap>li.product-category>a, .wp-cat-wrap>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 65px;   
+   border: 1px solid black;
+}
+.wp-cat-wrap>li.product-category>a:hover, .wp-cat-wrap>a:hover {
+    color: #fff;
+    background: #000;
+    transition: all 0.5s ease;
+}
+.wp-cat-wrap>li.product-category>a>h2.woocommerce-loop-category__title, .wp-cat-wrap>a>h2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+   line-height: 1.4em;
+   font-weight: 500;
+}
+.wp-cat-wrap>li.product-category>a>img, 
+.wp-cat-wrap>li.product-category>a>h2>mark {
+    display: none;
+}
+/* output category wp end */
+/* Section Shop-header end */
+
+.woocommerce-ordering select{ 
+    padding: 5px 0;   
+    display: block;
+    margin: 0 auto;
+}
+
+/* Section shop-main start*/
+.shop-main {   
+    padding: 60px 0;
+}
+.products .woocommerce-pagination {    
+    margin: 35px auto 0;
+}
+
+/* Pagination start */
+
+.shop-main .woocommerce-pagination {
+    display: flex;    
+    margin-top: 50px;
+}
+.woocommerce-pagination>ul {
+    display: flex;
+    gap: 14px;
+    margin: 0 auto;
+}
+.woocommerce-pagination>ul>li>span, .woocommerce-pagination>ul>li>a {
+   display: flex;
+   width: 41px;
+   height: 41px;
+   align-items: center;
+   justify-content: center;   
+} 
+.woocommerce-pagination>ul>li>span {
+    color: #fff;
+    background: #000;
+}
+.woocommerce-pagination>ul>li>a {
+    border: 1px solid #000;
+}
+.woocommerce-pagination>ul>li>a.next {
+    border: none;
+    justify-content: start;    
+}
+.woocommerce-pagination>ul>li>a.prev {
+    border: none;
+    justify-content: end;
+}
+/* Pagination end */
+/* Section Shop-main end */
+/* Styles for page shop.html end*/
+
+/* Responsive start */
+
+/* 1251px - 1400px  normal desctops start */
+@media screen and (max-width: 1400px) {	 
+  
+}
+/* 1251px - 1400px  normal desctops end */
+
+/* 993px - 1250px small desctops start */
+@media screen and (max-width: 1250px) {
+	
+}
+/* 993px - 1250px small desctops end */
+
+/* 769px - 992px  tablets start */
+@media screen and (max-width: 992px) {
+  
+}
+/* 769px - 992px  tablets end */
+
+/* 577px - 768px big phones start */
+@media screen and (max-width: 768px) {
+    
+ }    
+    
+/* 577px - 768px big phones end */
+
+/*   421px - 576px normal phones start*/
+@media screen and (max-width: 576px) {     
+  
+    }        
+
+/*   421px - 576px normal phones end*/
+
+/*  371px - 420px  small phones start */
+@media screen and (max-width: 420px) {    
+   
+} 
+
+/*  371px - 420px  small phones end */
+
+/* 320px - 370px extra-small phones start*/
+@media screen and (max-width: 370px) {             
+ 
+}
+/* 320px - 370px extra-small phones end*/
+/* Responsive end */

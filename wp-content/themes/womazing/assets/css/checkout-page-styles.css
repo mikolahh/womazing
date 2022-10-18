@@ -1,0 +1,204 @@
+/* Styles for checkout.html start */
+/* section checkout-header */
+.checkout-header {
+    padding: 60px 0;    
+}
+.checkout-header .product_title.entry-title {    
+    margin-bottom: 20px;
+}
+
+
+/* Section checkout-main */
+.checkout-main {
+    padding: 30px 0;
+}
+.checkout-main form.checkout.woocommerce-checkout {
+    position: relative;
+    z-index: 0;
+    display: flex;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.checkout-main 
+.woocommerce-NoticeGroup.woocommerce-NoticeGroup-checkout ul{
+    position: absolute;
+    color: red;
+    top: -140px;
+    left: 10px;
+    z-index: 1; 
+    background-color: #f2f2f2;  
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+}
+.checkout-main .checkout-details {    
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.checkout-main .woocommerce-account-fields {
+    display: none;
+}
+.checkout-main .woocommerce-billing-fields h3 {
+    font-size: 25px;
+    line-height: 1.4em;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif; 
+    margin-bottom: 25px;
+
+}
+.checkout-main .woocommerce-billing-fields label, .checkout-main .woocommerce-additional-fields label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin-bottom: 10px;   
+}
+.checkout-main .woocommerce-billing-fields input {
+    border-bottom: 1px solid #000;
+}
+.checkout-main p.form-row.form-row-wide:not(:last-child) {
+    margin-bottom: 10px;
+}
+.checkout-main .woocommerce-additional-fields h3, .checkout-main label span.optional  {
+    display: none;
+}
+.checkout-main span.woocommerce-input-wrapper textarea {
+border-bottom: 1px solid #000;
+width: 100%;
+}
+
+.checkout-main .woocommerce-shipping-totals.shipping {
+    display: none;
+}
+.checkout-order__title {
+    font-family: 'Raleway', sans-serif;
+}
+.checkout-order {    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;       
+}
+.checkout-order__info thead tr th {
+    font-family: 'Raleway', sans-serif;
+    text-align: start;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 500;
+    border-bottom: 10px solid #fff;
+}
+.checkout-order__info tbody tr td {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.4em;
+    padding-right: 10px;
+    border-right: 10px solid #fff;
+}
+.checkout-order__info tbody tr td:not(:last-child) {
+    border-bottom: 5px solid #fff;
+}
+.checkout-order__info tfoot tr.cart-subtotal th {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: start;
+    border-top: 15px solid #fff;
+    border-bottom: 10px solid #fff;
+} 
+.checkout-order__info tfoot tr.order-total th {
+    font-family: 'Raleway', sans-serif;
+    text-align: start;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.checkout-main .wc_payment_method.payment_method_cod {
+    display: none !important;
+}
+.checkout-main .form-row.place-order button {
+    padding: 22px 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;    
+    line-height: 1.4em;
+    font-weight: 400;   
+    color: #fff;
+    background: #6E9C9F;
+    transition: all 0.5s ease;
+    white-space: nowrap;
+}
+.checkout-main .form-row.place-order button:hover {
+    background: #509498;
+}
+/* Styles for checkout.html end */
+
+
+
+
+
+
+
+/* Responsive for checkout.html start */
+
+/* 1251px - 1400px  normal desctops start */
+@media screen and (max-width: 1400px) {	 
+           
+}
+/* 1251px - 1400px  normal desctops end */
+
+/* 993px - 1250px small desctops start */
+@media screen and (max-width: 1250px) {   
+   
+}
+/* 993px - 1250px small desctops end */
+
+/* 769px - 992px  tablets start */
+@media screen and (max-width: 992px) {
+    .checkout-main .checkout-details, .checkout-main .checkout-order {
+        width: 60%;
+    }     
+    
+}
+/* 769px - 992px  tablets end */
+
+/* 577px - 768px big phones start */
+@media screen and (max-width: 768px) {
+    .checkout-main .checkout-details, .checkout-main .checkout-order {
+        width: 70%;
+    }    
+ }    
+    
+/* 577px - 768px big phones end */
+
+/*   421px - 576px normal phones start*/
+@media screen and (max-width: 576px) { 
+    .checkout-main .checkout-details, .checkout-main .checkout-order {
+        width: 80%;
+    }        
+        
+}        
+
+/*   421px - 576px normal phones end*/
+
+/*  371px - 420px  small phones start */
+@media screen and (max-width: 420px) {  
+        .checkout-main .checkout-details, .checkout-main .checkout-order {
+        width: 90%;
+    }   
+     
+} 
+
+/*  371px - 420px  small phones end */
+
+/* 320px - 370px extra-small phones start*/
+@media screen and (max-width: 370px) {  
+    .checkout-main .checkout-details, .checkout-main .checkout-order {
+        width: 95%;
+    }    
+}
+/* 320px - 370px extra-small phones end*/
+/* Responsive end */
