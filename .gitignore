@@ -1,6 +1,6 @@
 wp-content/uploads/wc-logs/*
-wp-content/plugins/*
-wp-content/uploads/*
+#wp-content/plugins/*
+#wp-content/uploads/*
 #/*
 #!wp-content
 #wp-content/*
